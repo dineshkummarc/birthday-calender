@@ -1,9 +1,9 @@
 <?php 
 
 $servername = 'localhost';
-$database = 'database';
+$database = 'birthdaycalender';
 $username = 'root';
-$password = 'mysql';
+$password = '';
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
     // set the PDO error mode to exception
